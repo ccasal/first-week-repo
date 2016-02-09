@@ -1,0 +1,144 @@
+body {
+	font-size: 24px;
+	line-height: 32px;
+	color: #333;
+	width: 1000px;	
+}
+header {
+	background: white;
+	border-bottom: 2px solid #cccccc;
+	color: #ffffff;
+}
+#headerFirstName{
+	margin:20px 50px 0px 100px;
+    background: #4aaaa5;
+    padding: 20px;
+    font-weight: bold;
+    font-family: Georgia;
+    color: white;
+    display: inline-block;
+}
+#navBar{
+	float: right;
+	margin:20px 0px 0px 50px;
+    padding: 20px;
+    display: inline-block;
+}
+tr{
+    font-family: arial;
+    font-size: 10pt;
+}
+section {
+	padding: 20px;
+	background: #ffffff
+}
+.navBarLinks{
+	text-decoration: none;
+	color: grey
+}
+#left {
+	padding-left: 15px;
+	padding-right: 15px;
+    border-right: 1px solid #cccccc;
+}
+#middle {
+	padding-left: 15px;
+	padding-right: 15px;
+    border-right: 1px solid #cccccc;
+}
+#right {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.bodyHeadings{
+	font-weight: bold;
+    font-family: Georgia;
+    color: #4aaaa5;
+    width: 100%;
+    display: inline-block;
+}
+.contentBorder{
+	border-bottom: 1px solid #cccccc;
+}
+#profPic{
+	float: left;
+    width: 37.3%;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+#aboutMeBio{
+	font-family: arial;
+	font-size: 10pt;
+	line-height: normal;	
+}
+#full {
+	clear: both;
+	width: 960px;
+	height: 100%;
+	overflow: auto;
+	background-image: url("file:///Users/christian/Documents/development/homework1/portfolio/assets/images/old_moon/old_moon.png");
+
+}
+#container {
+	float: left;
+    width: 170px;
+    padding: 20px;
+    font-size: 14pt;
+    font-weight: bold;
+    font-family: Georgia;
+    color: #4aaaa5;
+    background: #fff;
+    border: 1px solid #eee;
+}
+.mainCentral{
+	float: left;
+    width: 520px;
+    margin-left: 80px;
+    margin-right: 63px;
+    padding: 20px;
+    height: 100%;
+    background: #fff;
+    border: 1px solid #eee;
+}
+aside {
+}
+#linkMeIcons{
+	width: 85%;
+}
+.connectLinks{
+	float: left;
+    width: 25%;
+    padding-left: 10px;
+}
+
+footer {
+	border-top: 10px solid #4aaaa5;
+	background: #666666;
+	padding: 20px;
+	clear: both;
+}
+#copyright{
+	text-align: center;
+    font-size: 10pt;
+    display: inline-block;
+    width: 100%;
+}
+.formHeadings{
+	font-family: Arial;
+	font-size: 14pt;
+	color: gray;	
+}
+.formInput{
+    width: 90%;
+    height: 16px;
+    font-family: Arial;
+    font-size: 10pt;
+    color: #cccccc;
+}
+#formMessage{
+	width: 90%;
+	height: 100px;
+    font-family: Arial;
+    font-size: 10pt;
+    color: #cccccc;
+}
