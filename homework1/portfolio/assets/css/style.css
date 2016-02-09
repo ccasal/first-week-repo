@@ -78,7 +78,7 @@ section {
 	width: 960px;
 	height: 100%;
 	overflow: auto;
-	background-image: url("file:///Users/christian/Documents/development/homework1/portfolio/assets/images/old_moon/old_moon.png");
+	background-image: url("old_moon.png");
 
 }
 #container {
