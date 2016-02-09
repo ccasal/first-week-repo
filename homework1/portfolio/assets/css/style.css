@@ -62,14 +62,15 @@ section {
 }
 #profPic{
 	float: left;
-    width: 37.3%;
+    width: 140px;
     padding-right: 15px;
     padding-bottom: 15px;
 }
-#aboutMeBio{
+.aboutMeBio{
 	font-family: arial;
 	font-size: 10pt;
 	line-height: 2;
+	width: 500px;
 	color: #777777	
 }
 #full {
