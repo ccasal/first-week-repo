@@ -133,12 +133,27 @@ footer {
     height: 16px;
     font-family: Arial;
     font-size: 10pt;
-    color: #cccccc;
+    color: black;
+    margin-bottom: 10px;
 }
 #formMessage{
 	width: 90%;
 	height: 100px;
     font-family: Arial;
     font-size: 10pt;
-    color: #cccccc;
+    color: black;
+    text-align: left;
 }
+#submitButton{
+	background: #4aaaa5;
+	color: #dddddd;
+	font-family: arial;
+	font-size: 10pt;
+}
+input[type="text"]:focus{
+	outline: none;
+}
+textarea:focus{
+	outline: none;
+}
+
