@@ -34,7 +34,7 @@ section {
 }
 .navBarLinks{
 	text-decoration: none;
-	color: grey
+	color: #777777
 }
 #left {
 	padding-left: 15px;
@@ -69,7 +69,8 @@ section {
 #aboutMeBio{
 	font-family: arial;
 	font-size: 10pt;
-	line-height: normal;	
+	line-height: 2;
+	color: #777777	
 }
 #full {
 	clear: both;
@@ -108,7 +109,7 @@ aside {
 .connectLinks{
 	float: left;
     width: 25%;
-    padding-left: 10px;
+    margin-left: 10px;
 }
 
 footer {
@@ -126,14 +127,14 @@ footer {
 .formHeadings{
 	font-family: Arial;
 	font-size: 14pt;
-	color: gray;	
+	color: #777777;	
 }
 .formInput{
     width: 90%;
     height: 16px;
     font-family: Arial;
     font-size: 10pt;
-    color: black;
+    color: #777777;
     margin-bottom: 10px;
 }
 #formMessage{
@@ -141,7 +142,7 @@ footer {
 	height: 100px;
     font-family: Arial;
     font-size: 10pt;
-    color: black;
+    color: #777777;
     text-align: left;
 }
 #submitButton{
@@ -156,4 +157,67 @@ input[type="text"]:focus{
 textarea:focus{
 	outline: none;
 }
-
+.projectPics{
+    float: left;
+    height: 150px;
+    width: 200px;
+    padding: 0px 15px 15px 15px;
+    position: relative;
+    top: 0;
+    left: 0
+}
+#project1{
+	position: absolute;
+	background-color: #4aaaa5;
+    width: 200px;	
+    top: 320px;
+    left: 136px;
+    text-align: center;
+    font-family: georgia;
+    font-size: 12pt;
+    color: white;
+}
+#project2{
+	position: absolute;
+    background-color: #4aaaa5;
+    width: 200px;
+    top: 320px;
+    left: 366px;
+    text-align: center;
+    font-family: georgia;
+    font-size: 12pt;
+    color: white;
+}
+#project3{
+	position: absolute;
+    background-color: #4aaaa5;
+    width: 200px;
+    top: 484px;
+    left: 136px;
+    text-align: center;
+    font-family: georgia;
+    font-size: 12pt;
+    color: white;
+}
+#project4{
+	position: absolute;
+    background-color: #4aaaa5;
+    width: 200px;
+    top: 484px;
+    left: 366px;
+    text-align: center;
+    font-family: georgia;
+    font-size: 12pt;
+    color: white;
+}
+#project5{
+	position: absolute;
+    background-color: #4aaaa5;
+    width: 200px;
+    top: 651px;
+    left: 136px;
+    text-align: center;
+    font-family: georgia;
+    font-size: 12pt;
+    color: white;
+}
