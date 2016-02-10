@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">	
 </head>
 <body>
+	<div class="wrapper">
 	<header>
 		<span id="headerFirstName">Christian Casal</span>
 
@@ -29,30 +30,27 @@
 
 	<section id="full">
 		<div class="mainCentral">
-			<h4 class="bodyHeadings">Portfolio</h4>
+			<h4 class="bodyHeadings">Contact</h4>
 			<hr class="contentBorder">
-			<br>
-			<img class="projectPics" src="assets/images/placeholder-1.jpg" alt="">
-			<p id="project1">Hangman</p>
-			
-			
+			<form>
+				<span class="formHeadings">
+				Name</span> 
+				<br>
+					<input class="formInput" type="text" name="name" placeholder="John Smith">
+				<br>
 
-			<img class="projectPics" src="assets/images/placeholder-2.jpg" alt="">
-			
-			<p id="project2">RPG Game</p>
-		
+				<span class="formHeadings">Email</span>
+				<br>
+					<input class="formInput" type="text" name="email" placeholder="example@gmail.com">
+				<br>
 
-			<img class="projectPics" src="assets/images/placeholder-3.jpg" alt="">
+				<span class="formHeadings">Message</span><br>
+				<textarea id="formMessage" cols="30" rows="10" name="message"></textarea>
+				<br>
+				<br>
 
-			<p id="project3">Trivia Game</p>
-
-			<img class="projectPics" src="assets/images/placeholder-4.jpg" alt="">
-			
-			<p id="project4">Rutgers Info Widget</p>
-
-			<img class="projectPics" src="assets/images/placeholder-5.jpg" alt="">
-			
-			<p id="project5">Rock, Paper, Scissors</p>
+				<input id="submitButton" type="submit" value="Submit"><br>
+			</form>
 		</div>
 			
 		<aside id="container">
@@ -71,10 +69,11 @@
 				</span>
 		</aside>
 	</section>
-
+	<div class="push"></div>
 	<footer>
 		<span id="copyright">Copyright 2016 Christian Casal</span>
 	</footer>
+	</div>
 </body>
 
 </html>

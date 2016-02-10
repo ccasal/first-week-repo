@@ -2,7 +2,8 @@ body {
 	font-size: 24px;
 	line-height: 32px;
 	color: #333;
-	width: 1000px;	
+	width: 1000px;
+    height:100%;	
 }
 header {
 	background: white;
@@ -235,3 +236,24 @@ textarea:focus{
     font-size: 12pt;
     color: white;
 }
+* {
+    margin: 0;
+}
+html{
+    height: 100%;
+}
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -4em;
+}
+.footer{
+    height: 4em;
+}
+.push{
+    background-image: url("old_moon.png");
+    height: 4em;
+}
+
+
