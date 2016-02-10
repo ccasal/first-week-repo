@@ -60,6 +60,7 @@ section {
 }
 .contentBorder{
 	border-bottom: 1px solid #cccccc;
+    margin-bottom: 10px;
 }
 #profPic{
 	float: left;
@@ -112,6 +113,7 @@ aside {
 	float: left;
     width: 25%;
     margin-left: 10px;
+    margin-top: 10px;
  	opacity: 0.5;
  
  /*Transition*/
